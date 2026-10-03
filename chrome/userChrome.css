@@ -1,0 +1,28 @@
+/* browser UI */
+@import url("color.css");
+
+:root {
+  --toolbarbutton-background-color-hover:  color-mix(in srgb, var(--color-violet-desaturated-60) 25%, transparent) !important;
+  --toolbarbutton-background-color-active: color-mix(in srgb, var(--color-violet-desaturated-60) 40%, transparent) !important;
+
+  /* selected tab */
+  --tab-border-color-selected-leading:  var(--color-accent-primary) !important;
+  --tab-border-color-selected-trailing: var(--color-accent-primary) !important;
+  --tab-attention-dot-color:            var(--color-accent-primary) !important;
+
+  /* titlebar */
+  --toolbox-background-color-gradient-leading:  light-dark(var(--color-violet-10), var(--color-violet-90)) !important;
+  --toolbox-background-color-gradient-trailing: light-dark(var(--color-violet-10), var(--color-violet-90)) !important;
+}
+
+/* fallbacks in case these are set closer to the element than :root */
+.tabbrowser-tab {
+  --tab-border-color-selected-leading:  var(--color-accent-primary) !important;
+  --tab-border-color-selected-trailing: var(--color-accent-primary) !important;
+  --tab-attention-dot-color:            var(--color-accent-primary) !important;
+}
+
+#navigator-toolbox {
+  --toolbox-background-color-gradient-leading:  light-dark(var(--color-violet-10), var(--color-violet-90)) !important;
+  --toolbox-background-color-gradient-trailing: light-dark(var(--color-violet-10), var(--color-violet-90)) !important;
+}

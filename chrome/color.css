@@ -1,0 +1,28 @@
+:root {
+  --color: AccentColor; /*#2190a4;*/
+
+  --color-accent-primary:          light-dark(var(--color), oklch(from var(--color) 0.78 c h)) !important;
+  --color-accent-primary-hover:    light-dark(oklch(from var(--color) calc(l - 0.07) c h), oklch(from var(--color) 0.85 c h)) !important;
+  --color-accent-primary-active:   light-dark(oklch(from var(--color) calc(l - 0.14) c h), oklch(from var(--color) 0.92 c h)) !important;
+  --color-accent-primary-selected: light-dark(oklch(from var(--color) calc(l - 0.14) c h), oklch(from var(--color) 0.92 c h)) !important;
+
+  --color-violet-10: oklch(from var(--color) 0.93 calc(c * 0.30) h) !important;
+  --color-violet-20: oklch(from var(--color) 0.86 calc(c * 0.50) h) !important;
+  --color-violet-30: oklch(from var(--color) 0.78 calc(c * 0.75) h) !important;
+  --color-violet-40: oklch(from var(--color) 0.68 c h) !important;
+  --color-violet-50: var(--color) !important;
+  --color-violet-60: oklch(from var(--color) 0.47 c h) !important;
+  --color-violet-70: oklch(from var(--color) 0.36 calc(c * 0.85) h) !important;
+  --color-violet-80: oklch(from var(--color) 0.27 calc(c * 0.60) h) !important;
+  --color-violet-90: oklch(from var(--color) 0.20 calc(c * 0.40) h) !important;
+
+  --color-violet-desaturated-10: oklch(from var(--color) 0.93 calc(c * 0.25) h) !important;
+  --color-violet-desaturated-20: oklch(from var(--color) 0.86 calc(c * 0.30) h) !important;
+  --color-violet-desaturated-30: oklch(from var(--color) 0.78 calc(c * 0.35) h) !important;
+  --color-violet-desaturated-40: oklch(from var(--color) 0.68 calc(c * 0.35) h) !important;
+  --color-violet-desaturated-50: oklch(from var(--color) 0.58 calc(c * 0.35) h) !important;
+  --color-violet-desaturated-60: oklch(from var(--color) 0.47 calc(c * 0.35) h) !important;
+  --color-violet-desaturated-70: oklch(from var(--color) 0.37 calc(c * 0.30) h) !important;
+  --color-violet-desaturated-80: oklch(from var(--color) 0.28 calc(c * 0.25) h) !important;
+  --color-violet-desaturated-90: oklch(from var(--color) 0.20 calc(c * 0.20) h) !important;
+}
